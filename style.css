@@ -1,0 +1,51 @@
+body{
+    background-color: maroon;
+}
+.navbar{
+    background-color: rgb(240, 255, 246);
+    
+}
+.navbar-brand{
+    color: black;
+    font-family: arial;
+}
+.headingspan{
+    color:red;
+    font-family: jokerman;
+    }
+.container {
+    position: relative; 
+    width:50%;
+    margin: 0 auto; /* Center it */
+    }
+
+ .content {
+    position: absolute; /* Position the background text */
+    top: 0; 
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    text-shadow:  2px 2px 5px red;
+    }
+
+.form-control{
+    height: 4em;
+    }
+     
+.btn{
+    height:4em;
+    
+    color:black;
+   }
+
+.btn:hover {
+    background-color: black;
+    color: white;
+   }
+
+.alert{
+    background-color: black;
+    width:75%;
+    margin-left: 10em;
+}
